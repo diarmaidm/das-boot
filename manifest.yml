@@ -1,0 +1,7 @@
+---
+applications:
+  - name: diarmaid-boot
+    buildpack: https://github.com/cloudfoundry/java-buildpack
+    memory: 256M
+    instances: 1
+    path: target/das-boot-0.0.1-SNAPSHOT.jar
